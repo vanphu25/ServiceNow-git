@@ -1,0 +1,152 @@
+
+/*General*/
+.flex-1{
+    flex:1;
+}
+.flex-2{
+    flex:2;
+}
+
+.header{
+    padding: 4px 12px;
+    
+}
+.header .header__navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header .logo{
+    height:46px;
+}
+
+.header .logo-img{
+    height:100%;
+}
+
+.header .header__navbar-list{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3.2em;
+    font-weight: 700;
+}
+
+.header .header__navbar-item{
+    list-style: none;
+}
+.header__navbar-item + .header__navbar-item{
+    margin-left: 1.6em;
+}
+
+.header .header__navbar-item a{
+    text-decoration: none;
+    line-height: 46px;
+}
+
+#slider{
+    background-color: #60249e;
+    height:200px;
+   
+    
+}
+
+.slider{
+    padding-bottom:10%;
+    background: url('/assets/images/background-dxc.png') top center / cover no-repeat;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    position:absolute;
+    top:220px;
+    left:0;
+    right:0;
+    display: flex;
+}
+
+.left-side-content{
+    flex:1.3;
+    background-color: #fff;
+    font-size: 1.6em;
+    margin-right: 16px;
+    box-shadow: 0 0 5px #888;
+    
+}
+
+.left-side-content .team-info,
+.left-side-content .useful-document
+{
+    margin-top: 8px;
+    padding: 8px 8px 8px 16px;
+    line-height: 1.4;
+}
+
+
+
+.left-side-content .name-team-more,
+.left-side-content .useful-info-link
+{
+    list-style: none;
+}
+
+.left-side-content .name-team-more li,
+.left-side-content .useful-info-link li
+{
+    padding:8px 0;
+}
+
+.left-side-content .name-team-more a,
+.left-side-content .useful-info-link a
+{
+    text-decoration: none;
+}
+
+.right-side-content{
+    flex:3;
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    padding:16px;
+    box-shadow: 0 0 5px #888;
+}
+.right-side-content .intro-scope-sections{
+    display: flex;
+    flex:1;
+    text-align: center;
+}
+.right-side-content .intro-item{
+    padding:16px;
+}
+
+
+.right-side-content .intro-item-title{
+    font-size: 1.8em;
+    line-height: 1.4;
+
+}
+
+
+.right-side-content .intro-item-content{
+    padding-top: 16px;
+    line-height: 1.4;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.right-side-content .request-items-section{
+    margin-top: 16px;
+    display: flex;
+    text-align: center;
+}
+
+.right-side-content .item-image img{
+    width:80%;
+    margin-top: 16px;
+}
+
+ul+ul{
+    margin-top: 16px;
+    padding-left:16px ;
+}
